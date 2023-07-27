@@ -56,6 +56,14 @@ class DivideZero (Exception):
     pass
 
 print("Decimal roots and powers will be rounded down.")
+print("To exit calculator input 'q', to clear all previous inputs input 'c', to delete preivious input, input 'd'")
+print("Here are the supported operations: ")
+print("Mulitplication: *")
+print("Division: /")
+print("Addition: +")
+print("Subtraction -")
+print("Exponent: ^")
+print("Root: root")
 
 while True:
     exit = False
